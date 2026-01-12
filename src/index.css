@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e6dddd;
+}
+
+.app {
+  width: 400px;
+  margin: auto;
+  background: rgb(248, 228, 163);
+  padding: 20px;
+}
+
+.header input {
+  padding: 5px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button:hover {
+  opacity: 0.9;
+}
