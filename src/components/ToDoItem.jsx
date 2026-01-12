@@ -12,7 +12,7 @@ function ToDoItem({todo, deleteTodo, toggleTodo, editTodo}){
     
     return(
         <div className="todo-items">
-            <input type="checkbox" checked={ToDoItems.completed} onChange={()=> ToggleTodo(todo.id)} />
+            <input type="checkbox" checked={ToDoItem.completed} onChange={()=> toggleTodo(todo.id)} />
             { isEditing ? (
                 <input value ={editText} onChange={(e) => setEditText(e.target.value)} />
             ) :(
